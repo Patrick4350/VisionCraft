@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6a1b9a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ab47bc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#grad1)" stroke-width="4">
+    <!-- Eye Outline -->
+    <ellipse cx="50" cy="50" rx="40" ry="20" />
+    <!-- Iris -->
+    <circle cx="50" cy="50" r="10" />
+    <!-- Pupil -->
+    <circle cx="50" cy="50" r="5" fill="#000" />
+  </g>
+  <!-- Add text for VisionCraft -->
+  <text x="50%" y="85%" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">VisionCraft</text>
+</svg>
