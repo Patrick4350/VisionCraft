@@ -1,0 +1,12 @@
+# Ignore environment variables file
+.env
+
+# Ignore other sensitive files
+secrets.json
+config/credentials.yml
+
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore logs
+*.log
